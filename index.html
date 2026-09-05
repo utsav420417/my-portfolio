@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+</head>
+
+<body style="margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; color: #333;">
+
+
+  <!-- NAVBAR -->
+  <nav style="background: #2941a1; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="color: rgb(122, 141, 172); font-size: 20px; font-weight: bold;">Utsav</div>
+    <div>
+      <a href="#hero"     style="color: rgb(35, 32, 32); margin-left: 20px; text-decoration: none;">Home</a>
+      <a href="#about"    style="color: rgb(17, 16, 16); margin-left: 20px; text-decoration: none;">About</a>
+      <a href="#projects" style="color: rgb(41, 25, 25); margin-left: 20px; text-decoration: none;">Projects</a>
+      <a href="#contact"  style="color: white; margin-left: 20px; text-decoration: none;">Contact</a>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section id="hero" style="background: #e653cb; color: white; text-align: center; padding: 80px 32px;">
+
+    <!-- Avatar -->
+    <div style="width: 120px; height: 120px; border-radius: 50%; background: #cce4f7; border: 4px solid white; margin: 0 auto 24px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+      <svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="40" cy="30" r="18" fill="#6aaed6"/>
+        <ellipse cx="40" cy="70" rx="28" ry="20" fill="#6aaed6"/>
+      </svg>
+    </div>
+    <h1 style="font-size: 40px; margin-bottom: 10px;">Hi, I'm Utsav paudel </h1>
+    <p style="font-size: 18px; margin-bottom: 8px; opacity: 0.9;">Computer Science Student</p>
+    <p style="font-size: 15px; margin-bottom: 32px; opacity: 0.75;">Kathmandu, Nepal</p>
+
+    <!-- Social links -->
+    <div style="display: flex; justify-content: center; gap: 16px; margin-bottom: 32px;">
+      <a href="https://github.com/sachinsunar" style="background: white; color: #333; padding: 8px 20px; border-radius: 6px; font-size: 14px; font-weight: bold; text-decoration: none;">GitHub</a>
+      <a href="https://www.linkedin.com/in/sachinsunar" style="background: white; color: #0077b5; padding: 8px 20px; border-radius: 6px; font-size: 14px; font-weight: bold; text-decoration: none;">LinkedIn</a>
+      <a href="https://twitter.com/sachinsunar" style="background: white; color: #1da1f2; padding: 8px 20px; border-radius: 6px; font-size: 14px; font-weight: bold; text-decoration: none;">Twitter</a>
+    </div>
+
+    <a href="#projects" style="background: white; color: #4a90e2; padding: 12px 28px; border-radius: 6px; font-weight: bold; text-decoration: none;">See My Work</a>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" style="padding: 64px 32px; max-width: 800px; margin: 0 auto;">
+    <h2 style="font-size: 32px; margin-bottom: 8px;">About Me</h2>
+    <div style="width: 48px; height: 4px; background: #4a90e2; margin-bottom: 24px;"></div>
+
+    <div style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+
+      <!-- Photo placeholder -->
+      <div style="width: 160px; height: 180px; background: #dde8f5; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0;">
+        <svg width="70" height="70" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="30" r="18" fill="#6aaed6"/>
+          <ellipse cx="40" cy="70" rx="28" ry="20" fill="#6aaed6"/>
+        </svg>
+        <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Your Photo</p>
+      </div>
+
+      <div style="flex: 1; min-width: 200px;">
+        <p style="font-size: 16px; color: #555; line-height: 1.7; margin-bottom: 20px;">I am a computer science student who loves building things. I enjoy learning new technologies and working on projects that solve real problems for people around me.</p>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; font-size: 14px; color: #555;">
+          <div><strong>Name:</strong> Demo Name</div>
+          <div><strong>Location:</strong> Kathmandu, Nepal</div>
+          <div><strong>Degree:</strong> BSc CSIT</div>
+          <div><strong>Email:</strong> demo@email.com</div>
+        </div>
+
+        <h3 style="font-size: 16px; margin-bottom: 12px;">Skills</h3>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <span style="background: #e8f4fd; color: #2c7be5; padding: 5px 14px; border-radius: 20px; font-size: 13px;">HTML</span>
+          <span style="background: #e8f4fd; color: #2c7be5; padding: 5px 14px; border-radius: 20px; font-size: 13px;">CSS</span>
+          <span style="background: #e8f4fd; color: #2c7be5; padding: 5px 14px; border-radius: 20px; font-size: 13px;">JavaScript</span>
+          <span style="background: #e8f4fd; color: #2c7be5; padding: 5px 14px; border-radius: 20px; font-size: 13px;">Git</span>
+          <span style="background: #e8f4fd; color: #2c7be5; padding: 5px 14px; border-radius: 20px; font-size: 13px;">GitHub</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact" style="background: #222; color: white; padding: 48px 32px; text-align: center;">
+
+    <h2 style="font-size: 28px; margin-bottom: 8px;">Get In Touch</h2>
+    <p style="color: #aaa; font-size: 15px; margin-bottom: 32px;">Feel free to reach out for collaborations or just a hello.</p>
+
+    <p style="margin-bottom: 6px; font-size: 15px;">📧 demo@email.com</p>
+    <p style="margin-bottom: 32px; font-size: 15px;">📍 Kathmandu, Nepal</p>
+
+    <!-- Social links -->
+    <div style="display: flex; justify-content: center; gap: 16px; margin-bottom: 32px;">
+      <a href="#" style="color: #aaa; text-decoration: none; font-size: 14px; border: 1px solid #444; padding: 8px 20px; border-radius: 6px;">GitHub</a>
+      <a href="#" style="color: #aaa; text-decoration: none; font-size: 14px; border: 1px solid #444; padding: 8px 20px; border-radius: 6px;">LinkedIn</a>
+      <a href="#" style="color: #aaa; text-decoration: none; font-size: 14px; border: 1px solid #444; padding: 8px 20px; border-radius: 6px;">Twitter</a>
+    </div>
+
+    <div style="border-top: 1px solid #9b0b0b; padding-top: 24px;">
+      <p style="color: #666; font-size: 13px;">© 2025 Utsav. Built with HTML & CSS.</p>
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
+<!--
+rootfolder/ index.html , index.js 
+git init =>only 1 time,in root folder,always
+git add . / filename
+git commit -m "any message"
+
+
+git status
+
+-->
