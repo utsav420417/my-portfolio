@@ -27,5 +27,5 @@ for i in range(n):
     stu = CSITSTUDENT(student_id,name,rollno)
     students.append(stu)
 
-for student in students:
-  student.display()
+# for student in students:
+#   student.display()
